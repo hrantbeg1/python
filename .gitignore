@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 simple_tracker/data.txt
 nohup.out
+simple_analyzer_project/nohup.out
+simple_analyzer_project/scripts/.analyzer_pid
