@@ -20,3 +20,9 @@ class Analyzer:
             if self.data[i] > self.data[i-1]:
                 c += 1
         return c
+
+    def average(self):
+        return sum(self.data)/len(self.data) if self.data else None
+
+    def range_span(self):
+        return (max(self.data) - min(self.data)) if self.data else None
